@@ -1,0 +1,29 @@
+{
+  "name": "pm-reto-tecnico1",
+  "version": "1.0.0",
+  "description": "Prueba técnica de Platzi Master",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joseamaltes/pm-reto-tecnico1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joseamaltes/pm-reto-tecnico1/issues"
+  },
+  "homepage": "https://github.com/joseamaltes/pm-reto-tecnico1#readme",
+  "devDependencies": {
+    "eslint": "^8.0.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "nodemon": "^2.0.13",
+    "prettier": "^2.4.1"
+  }
+}
