@@ -11,4 +11,21 @@ Para cargar las preguntas y opciones de respuesta de las evaluaciones se debe co
 Entregable
 
 SOLUCIÓN 
-Lenguaje: javascript 
+
+Lenguaje: Javascript 
+
+Explicación
+
+Backend 
+La base de datos (preguntas con sus respuestas) se guardaron en un JSON en la que el usuario accederá mediante una API. 
+Se montó una API REST utilizando Express. Utilizando las siguientes 4 rutas:
+  -GET Para obtener las preguntas 
+  -GET para obtener las posibles respuestas 
+  -POST el usuario crea una ruta con las respuestas que envió. 
+  -GET Para recibir las soluciones de las preguntas, estas las recibe una vez que lo haya enviado. 
+
+FRONTEND 
+
+Se inicia con un contador en 0, cuando el usuario de click en el botón SIGUIENTE se iniciará el sistema de evalaución. 
+Las respuestas se irán guardando en un array llamado answers. 
+

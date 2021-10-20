@@ -1,16 +1,20 @@
+<!--
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./src/style.css">
   <title>Prueba tecnica 1</title>
 
 </head>
 <body>
+
   <h1>
     Bienvenido a tu examen
   </h1>
+  <div class = "container-exam">
     <h2>
       Instrucciones
     </h2>
@@ -21,22 +25,57 @@
       </p>
     </div>
     <div id="container-json">
-
-
     </div>
-
     <div>
-
-
     </div>
 
-    <button id="first-button">
+    <button id="first-button" class="button">
       SIGUIENTE
     </button>
-    <button id ="second-button">
+    <button id ="second-button" class="button">
       RESULTADO
     </button>
 
+  </div>
+
+
     <script src="./src/app.js"></script>
+</body>
+</html>
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+  <!-- Styles -->
+  <link rel="stylesheet" href="./src/style.css">
+  <!-- Title -->
+  <title>Prueba técnica 1</title>
+</head>
+<body>
+  <section class="login">
+    <section class="login__container">
+      <h2>Bienvenido a tu examen</h2>
+      <div class="login__container--form">
+        <p id="instructions">
+          Lee las siguiente pregunta y selecciona una de las cuatro opciones. Cuando lo hayas seleccionado da click en el boton SIGUIENTE. Al finalizar conoce tu RESTULADO
+        </p>
+        <div id="container-json">
+        </div>
+        <button id="first-button" class="button">
+          SIGUIENTE
+        </button>
+        <button id ="second-button" class="button">
+          RESULTADO
+        </button>
+      </div>
+    </section>
+  </section>
+  <script src="./src/app.js"></script>
 </body>
 </html>

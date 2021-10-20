@@ -1,8 +1,9 @@
 {
-  "questions" :  ["Whats the capital of Honduras?", "75 + 37", "¿Quién rechazó el nobel de literatura en 1964?", "Nombre de raza pequeña mexicana"],
+  "questions" :  ["Capital de Honduras?", "75 + 37", "¿Quién rechazó el nobel de literatura en 1964?", "Nombre de raza pequeña mexicana", "¿Quién canta  Prometiste?"],
   "possibleAnswers" : [["Buenos Aires", "Rio", "Tegucigalpa", "Quito"],
      ["105", "99", "110", "112"],
      ["Jean Paul Sartre", "José Saramago", "Albert Camus", "Jorge Luis Borges"],
-      ["Chihuahua", "Dalmata", "Xolo", "Lobo Mexicano"]],
-  "correctAnswers" : ["Tegucigalpa", "112", "Jean Paul Sartre", "Chihuahua"]
+      ["Chihuahua", "Dalmata", "Xolo", "Lobo Mexicano"],
+    ["Alejandro Fernandez","Pepe Aguilar","Cristian Nodal","Aleks Syntek"]],
+  "correctAnswers" : ["Tegucigalpa", "112", "Jean Paul Sartre", "Chihuahua", "Pepe Aguilar"]
 }
